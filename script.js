@@ -3,12 +3,20 @@ const assignments = [
         assignmentName: "Make a website",
         type: "",
         dueDate: "",
-        description: ""
+        description: "",
+        link: "#"
+    },
+    {
+        assignmentName: "HW1 Cartoon",
+        type: "HW",
+        dueDate: "9/29",
+        description: "",
+        link: "../CartoonAssignment/cartoon.html"
     }
 ]
 
 const assignmentContainer = document.getElementById("assignment-container")
 assignmentContainer.innerHTML = '<ul>'+ assignments.map(elm => {
-    return `<li>${elm.assignmentName}</li>`
+    return `<li><a href=${elm.link}>${elm.assignmentName}</a></li>`
 }).join('')
 + '</ul>'

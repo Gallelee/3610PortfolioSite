@@ -1,14 +1,19 @@
 body{
     margin: 0 auto;
-    background-color: navy;
+    background-color: black;
 }
 
 .nav-header{
-    background-color: white;
+    background-color: #2e2e1f;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     border-bottom: solid black 2px;
     align-items: center;
+    color: aliceblue;
+}
+
+.main-body{
+    color:aliceblue
 }
