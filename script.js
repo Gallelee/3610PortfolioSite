@@ -11,7 +11,7 @@ const assignments = [
         type: "HW",
         dueDate: "9/29",
         description: "",
-        link: "3610PortfolioSite/CartoonAssignment/index.html"
+        link: "/CartoonAssignment/index.html"
     }
 ]
 
