@@ -18,9 +18,9 @@ const ctx = canvas.getContext("2d");
  ctx.lineTo(0,400)
  ctx.fill()
 
- drawTree(500,500)
- drawMountain( 300,300)
- drawHouse(600,600)
+ 
+
+ 
 
 
  function drawTree(x,y){//function for drawing basic trees
@@ -50,7 +50,7 @@ const ctx = canvas.getContext("2d");
     ctx.fill();
  }
 
- function drawHouse(x,y){
+ function drawHouse(x,y){//function to draw a basic red house with windows and door
      ctx.fillStyle = "red"
      ctx.beginPath()
      ctx.moveTo(x,y)
@@ -87,3 +87,26 @@ const ctx = canvas.getContext("2d");
      ctx.lineTo(x,y)
      ctx.fill()
  }
+ drawHouse(1500,650)
+
+ for(let x = 1; x<4; x++){
+     drawTree(100*x,600+x)
+ }
+
+ for(let x =1; x<4; x++){
+     drawTree(120*x,650+x)
+ }
+
+ for(let x =1; x<11; x++){
+    drawTree(120*x,750+x)
+}
+
+for(let x =1; x<8; x++){
+    drawMountain(50*x,400+x)
+}
+
+for(let x =1; x<8; x++){
+    drawMountain(1100+x,400+x)
+}
+
+
