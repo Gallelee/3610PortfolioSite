@@ -13,7 +13,9 @@ const assignments = [
         description: "",
         link: "CartoonAssignment/cartoon.html"
     }
-    ,
+    
+]
+const labs = [
     {
         assignmentName: "Lab1",
         type: "lab",
@@ -28,3 +30,10 @@ assignmentContainer.innerHTML = '<ul>'+ assignments.map(elm => {
     return `<li><a href=${elm.link}>${elm.assignmentName}</a></li>`
 }).join('')
 + '</ul>'
+
+const labContainter = document.getElementById("lab-container")
+labContainter.innerHTML = '<ul>'+ labs.map(elm => {
+    return `<li><a href=${elm.link}>${elm.assignmentName}</a></li>`
+}).join('')
++ '</ul>'
+

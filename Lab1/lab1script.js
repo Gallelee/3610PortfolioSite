@@ -9,8 +9,11 @@ const fruit = [
   { name: "Pear", quantity: 10, color: "green" },
   { name: "Grape", quantity: 20, color: "purple" },
 ];
+
+ctx.fillText("Gallelee Thimotus",50,50)
+ctx.font = "12px serif"
 function labelBar(name,x,y){
-    ctx.font = "48px serif"
+    ctx.font = "20px serif"
     ctx.fillText(name,x,y)
 }
 
@@ -29,6 +32,7 @@ let x = 0;
 
 fruit.forEach(elm => {
     drawBar(x,elm.quantity, elm.color)
+    labelBar(elm.name,x,530)
     x+=100
 })
 
