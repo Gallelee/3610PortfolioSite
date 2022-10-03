@@ -13,6 +13,14 @@ const assignments = [
         description: "",
         link: "CartoonAssignment/cartoon.html"
     }
+    ,
+    {
+        assignmentName: "Lab1",
+        type: "lab",
+        dueDate: "N/A",
+        description: "N/A",
+        link: "Lab1/lab1.html"
+    }
 ]
 
 const assignmentContainer = document.getElementById("assignment-container")
