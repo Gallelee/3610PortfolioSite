@@ -12,6 +12,11 @@ const assignments = [
         dueDate: "9/29",
         description: "",
         link: "CartoonAssignment/cartoon.html"
+    },
+    {
+        assignmentName: "Animation",
+        type: "HW",
+        link: "Animation/animation.html"
     }
 ]
 
