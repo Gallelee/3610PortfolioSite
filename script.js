@@ -18,6 +18,16 @@ const assignments = [
         type: "HW",
         link: "Animation/animation.html"
     }
+    
+]
+const labs = [
+    {
+        assignmentName: "Lab1",
+        type: "lab",
+        dueDate: "N/A",
+        description: "N/A",
+        link: "Lab1/lab1.html"
+    }
 ]
 
 const assignmentContainer = document.getElementById("assignment-container")
@@ -25,3 +35,10 @@ assignmentContainer.innerHTML = '<ul>'+ assignments.map(elm => {
     return `<li><a href=${elm.link}>${elm.assignmentName}</a></li>`
 }).join('')
 + '</ul>'
+
+const labContainter = document.getElementById("lab-container")
+labContainter.innerHTML = '<ul>'+ labs.map(elm => {
+    return `<li><a href=${elm.link}>${elm.assignmentName}</a></li>`
+}).join('')
++ '</ul>'
+
