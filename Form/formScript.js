@@ -8,3 +8,6 @@ textColor.addEventListener("change",(ev)=>{
     nameText.setAttribute("style", `color: ${ev.target.value}`)
 })
 
+bgColor.addEventListener("change", (ev)=>{
+    document.body.setAttribute("style", `background-color: ${ev.target.value}`)
+})
