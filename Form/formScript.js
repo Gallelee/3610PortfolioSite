@@ -11,3 +11,7 @@ textColor.addEventListener("change",(ev)=>{
 bgColor.addEventListener("change", (ev)=>{
     document.body.setAttribute("style", `background-color: ${ev.target.value}`)
 })
+
+textSize.addEventListener("change", (ev)=>{
+    nameText.setAttribute("style", `font-size: ${ev.target.value}px`)
+})
