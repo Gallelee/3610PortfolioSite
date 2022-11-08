@@ -17,6 +17,11 @@ const assignments = [
         assignmentName: "Animation",
         type: "HW",
         link: "Animation/animation.html"
+    },
+    {
+        assignmentName: "Form",
+        type: "Assignment",
+        link: "Form/form.html"
     }
     
 ]
