@@ -22,6 +22,10 @@ const assignments = [
         assignmentName: "Form",
         type: "Assignment",
         link: "Form/form.html"
+    },
+    {
+        assignmentName: "Speech Recognition",
+        link: "SpeechRecognition/speechRecognition.html"
     }
     
 ]
