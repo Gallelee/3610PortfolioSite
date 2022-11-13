@@ -26,6 +26,10 @@ const assignments = [
     {
         assignmentName: "Speech Recognition",
         link: "SpeechRecognition/speechRecognition.html"
+    },
+    {
+        assignmentName: "Data Visualization",
+        link: "DataVisualization/data.html"
     }
     
 ]
