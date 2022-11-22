@@ -10,43 +10,43 @@ const cinematic = document.getElementById("cinematic")
 const geo = document.getElementById("geo")
 const anti = document.getElementById("anti")
 
-red.addEventListener("dblclick", ()=>{
+red.addEventListener("click", ()=>{
     piano.play()
 })
-red.addEventListener("click", ()=>{
+red.addEventListener("dblclick", ()=>{
     piano.pause()
 })
 
 
-orange.addEventListener("dblclick", ()=>{
+orange.addEventListener("click", ()=>{
     metal.play()
 })
-orange.addEventListener("click", ()=>{
+orange.addEventListener("dblclick", ()=>{
     metal.pause()
 })
 
 
-yellow.addEventListener("dblclick", ()=>{
+yellow.addEventListener("click", ()=>{
     cinematic.play()
 })
-yellow.addEventListener("click", ()=>{
+yellow.addEventListener("dblclick", ()=>{
     cinematic.pause()
 })
 
 
-purple.addEventListener("dblclick", ()=>{
+purple.addEventListener("click", ()=>{
     geo.play()
 })
-purple.addEventListener("click", ()=>{
+purple.addEventListener("dblclick", ()=>{
     geo.pause()
 })
 
 
 
-blue.addEventListener("dblclick", ()=>{
+blue.addEventListener("click", ()=>{
     anti.play()
 })
-blue.addEventListener("click", ()=>{
+blue.addEventListener("dblclick", ()=>{
     anti.pause()
 })
 
