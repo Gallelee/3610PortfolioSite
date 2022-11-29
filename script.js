@@ -44,6 +44,10 @@ const labs = [
         dueDate: "N/A",
         description: "N/A",
         link: "Lab1/lab1.html"
+    },
+    {
+        assignmentName: "Audio Lab",
+        link: "AudioLab/audioLab.html"
     }
 ]
 
