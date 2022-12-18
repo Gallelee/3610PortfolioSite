@@ -30,6 +30,9 @@ const assignments = [
     {
         assignmentName: "Data Visualization",
         link: "DataVisualization/data.html"
+    },{
+        assignmentName: "Video Animation",
+        link: "VideoAnimation/videoAnimation.html"
     }
     
 ]
