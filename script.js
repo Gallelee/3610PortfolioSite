@@ -44,6 +44,10 @@ const labs = [
     {
         assignmentName: "Audio Lab",
         link: "AudioLab/audioLab.html"
+    },
+    {
+        assignmentName: "Resume Lab",
+        link: "Resume/resume.html"
     }
 ]
 
